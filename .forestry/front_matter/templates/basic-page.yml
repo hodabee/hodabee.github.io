@@ -29,3 +29,5 @@ fields:
   showOnly:
     field: picture_toggle
     value: true
+pages:
+- page1.md
