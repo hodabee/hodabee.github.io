@@ -1,4 +1,29 @@
 ---
 label: Header
 hide_body: true
-fields: []
+fields:
+- name: website_title
+  type: text
+  config:
+    required: false
+  label: Website Title
+- name: section_links
+  type: field_group
+  config: {}
+  fields:
+  - name: section_title1
+    type: text
+    config:
+      required: false
+    label: Section Title1
+  - name: section_title2
+    type: text
+    config:
+      required: false
+    label: Section Title2
+  - name: section_title3
+    type: text
+    config:
+      required: false
+    label: Section Title3
+  label: Section Links
