@@ -1,4 +1,31 @@
 ---
 label: Basic Page
 hide_body: false
-fields: []
+fields:
+- name: page_title
+  type: text
+  config:
+    required: false
+  label: Page Title
+  description: title of this page
+  default: ''
+- name: page_content
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Page Content
+- name: picture_toggle
+  type: boolean
+  label: picture toggle
+- name: picture
+  type: file
+  config:
+    maxSize: 250
+  label: picture
+  showOnly:
+    field: picture_toggle
+    value: true
