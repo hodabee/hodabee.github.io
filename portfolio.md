@@ -3,7 +3,7 @@ layout: default
 title: "Hoda's UX Research Portfolio"
 ---
 
-# Hi, I'm Hoda Bandeh-Ahmadi 
+# Hi, I'm Hoda 
 
 I am a researcher & strategist specializing in deciphering complex social interactions and dynamics. I have over **17 years** of experience conducting **human-centered research** in government, universities, healthcare, & tech.
 
